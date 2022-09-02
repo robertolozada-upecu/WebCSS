@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    background-color: #F9F5EB;
+    text-align: center;
+    font-family: Merriweather, serif;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+}
+
+.cabecera{
+    background-color: #C0A080;
+    position:relative;
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+.perfil{
+    position: relative;
+    padding: 10px 10px;
+    margin: 100px 100px;
+}
+
+.foto-perfil{
+    width: 200px;
+}
+
+h1{
+    color: #1C3879;
+}
+
+h2, h3 {
+    font-family: Montserrat, sans-serif;
+    color: #607EAA;
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.nombre{
+    font-family: Sacramento, cursive;
+    color: #1C3879;
+    margin-top: 0;
+    font-size:80px;
+}
+
+.profesion{
+    color: #607EAA;
+    margin-top: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.elemento{
+    margin-top: 0;
+}
+
+.Nube1{
+    position:relative;
+    left:20%;
+}
+
+.Nube2{
+    position:absolute;
+    left:25%;
+}
+
+.habilidades{
+    text-align: center;
+    margin: 100px 100px;
+}
+
+.habilidades-fila{
+    width: 50%;       
+    height: 160px;
+    margin:100px auto 100px;
+  }
+
+.habilidad1{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+}
+
+.habilidad2{
+    width:25%;
+    width: 120px;
+    float:right;
+    margin-left: 30px;
+}
+
+.habilidades-fila{
+    width: 50%;
+}
+
+.parrafo{
+    font-family: Merriweather, serif;
+    text-align: justify;
+    line-height:2em;
+}
+
+.link-pie-pagina{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.pie-final{
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    color:#C0A080;
+}
+
+.container-inferior, .contacto{
+    background-color:#C0A080;
+    padding-bottom: 20px;
+}
+
+.link-pie-pagina{
+    color:#1C3879;
+}
+
+.pie-final, .texto-pie-pagina{
+    color:white;
+}
