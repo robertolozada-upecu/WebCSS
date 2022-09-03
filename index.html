@@ -10,13 +10,40 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <section id="titulo">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand marca" href="index.html">Roberto Lozada</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Tarifario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:rfll@tecnicoecuador.edu.ec">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
     <div class="cabecera">
         <img class="Nube1" src="images/cloud.png" alt="Nube1">
         <h1 class="nombre">Soy Roberto.</h1>
-        <p class="profesion">desarrollador de software</p>
+        <p class="profesion">docente - desarrollador de software</p>
         <img class="Nube2" src="images/cloud.png" alt="Nube2">
         <img class="Montana" src="images/mountain.png" alt="Montaña">
     </div>
@@ -44,7 +71,7 @@
           <h2>¿Necesitas ayuda?</h2>
           <h3>¡No dudes en ponerte en contacto!</h3>
           <p>Tienes un proyecto en mente que podemos trabajar juntos, haz clic en el botón para contáctame. ¡Estaré gustoso de apoyarte!</p>
-          <a class="btn btn-secondary" href="mailto:rfll@tecnicoecuador.edu.ec" role="button">CONTARTARSE</a>
+          <button class="btn btn-secondary" href="mailto:rfll@tecnicoecuador.edu.ec" type="button"><i class="fa-regular fa-envelope"></i> Contactarse</button>
           <br>
           <br>
         </div>
@@ -59,4 +86,6 @@
         <a class="texto-pie-pagina" href="https://robertolozada-upecu.github.io/CV/" target="_blank">Roberto Lozada</a>
         <span class="pie-final">Todos los derechos reservados.</span>
       </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
 </html>
